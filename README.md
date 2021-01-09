@@ -1,12 +1,12 @@
 # Poker
 
-Poker je popularna kartaška igra u kojoj se igrači sa **zatvorenim** ili **djelomično** zatvorenim kartama klade u središnji **pot**. Pot osvaja osoba s **najjačom kombinacijom** karata ili osoba koja je **povisila** ulog, a ostali su odustali.
+Poker je popularna kartaška igra u kojoj se igrači sa **zatvorenim** ili **djelomično zatvorenim ** kartama klade u središnji **pot**. Pot osvaja osoba s **najjačom kombinacijom** karata ili osoba koja je **povisila** ulog, a ostali su odustali.
 
 ## Igra
 
 ### Poker ruke
 
-dobitne kombinacije su od najjače prema najslabijoj
+Dobitne kombinacije su od najjače prema najslabijoj
 
  Naziv | Opis 
 ------------ | -------------
@@ -22,6 +22,6 @@ dobitne kombinacije su od najjače prema najslabijoj
  Jaka karta (High Cards) | bilo koja ruka koja ne pripada gore navedenim kategorijama
   
 
-![Skala u boji:](https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/PokerHandRankings.png/600px-PokerHandRankings.png)|
+![Poker ruke:](https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/PokerHandRankings.png/600px-PokerHandRankings.png)
 
 
