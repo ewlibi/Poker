@@ -15,14 +15,6 @@ class Karta( object ):
       return "Karta"
 
 class Spil(object):
-  def shuffle(self, times=1 ):
-    random.shuffle(self.karte)
-    print("Špil izmješan")
-
-  def djeljenje(self):
-    return self.karte.pop(0)
-
-class Poker_spil(Spil):
   def __init__(self):
     self.karte = []
     boje = {"Herz":"♡", "Pik":"♠", "Karo":"♢", "Tref":"♣"}
@@ -35,8 +27,8 @@ class Poker_spil(Spil):
               "Osmica":8,
               "Devetka":9,
               "Desetka":10,
-              "Dečko":11,
-              "Dama":12,
+              "JDečko":11,
+              "QDama":12,
               "Kralj":13,
               "As":14 }
 
@@ -48,28 +40,69 @@ class Poker_spil(Spil):
           simbol = str(vrijednost_karata[ime])+simbol_ikone
         else:
           simbol = ime[0]+simbol_ikone
-        self.karte.append( Karta(ime, vrijednost_karata[ime], boja, simbol) )
+        self.karte.append(Karta(ime, vrijednost_karata[ime], boja, simbol) )
+
+  def shuffle(self, times=1):
+    random.shuffle(self.karte)
+    print("Špil izmješan")
+
+  def djeljenje(self):
+    return self.karte.pop(0)
 
   def __repr__(self):
-    return "Poker špil: karte:{0} preostalo".format(len(self.karte))
+    return "Špil: karte:{0} preostalo".format(len(self.karte))
 
 class Igrac(object):
-  def __init__(self):
+  def __init__(self,ime,saldo):
+    self.__ime = ime
+    self.__saldo = saldo
     self.karte = []
+    self.__ulog = 5
 
-  def brojanje_karata(self):
+  @property
+  def ime(self):
+    return self.__ime
+
+  @property
+  def saldo(self):
+    return self.__saldo
+
+  @property
+  def ulog(self):
+    return self.__ulog
+
+  @ulog.setter
+  def ulog(self, vrijednost):
+    self.__ulog = vrijednost
+
+  @saldo.setter
+  def saldo(self, vrijednost):
+    self.__saldo = vrijednost
+##
+##  @property
+##  def karte(self):
+##    karte_kopija = []
+##    for karta in range(len(karte)):
+##        karte_kopija.append(karta)
+##    return list(karte_kopija)
+
+  def saldo(self, vrijednost):
+    self.__saldo = vrijednost
+  def broj_karata(self):
     return len(self.karte)
 
   def dodaj_kartu(self, karta):
     self.karte.append(karta)
 
+  def ima_novaca():
+    if self.__saldo <= 0:
+        return false
 
-class Pokerrezultat(object):
+class ProvjeraRuke(object):
   def __init__(self, karte):
     # Broj karte
     if not len(karte) == 5:
       return "Greška: Pogrešan broj karte"
-
     self.karte = karte
 
   def boja_fl(self):
@@ -111,8 +144,8 @@ class Pokerrezultat(object):
     brojac = 0
     vrijednost_karata = [karta.vrijednost for karta in self.karte]
     for vrijednost in vrijednost_karata:
-      if vrijednost_karata.brojac(vrijednost) > brojac:
-        brojac = vrijednost_karata.brojac(vrijednost)
+      if vrijednost_karata.count(vrijednost) > brojac:
+        brojac = vrijednost_karata.count(vrijednost)
 
     return brojac
 
@@ -120,7 +153,7 @@ class Pokerrezultat(object):
     parovi = []
     vrijednost_karata = [karta.vrijednost for karta in self.karte]
     for vrijednost in vrijednost_karata:
-      if vrijednost_karata.brojac(vrijednost) == 2 and vrijednost not in parovi:
+      if vrijednost_karata.count(vrijednost) == 2 and vrijednost not in parovi:
         parovi.append(vrijednost)
 
     return parovi
@@ -128,7 +161,7 @@ class Pokerrezultat(object):
   def poker(self):
     vrijednost_karata = [karta.vrijednost for karta in self.karte]
     for vrijednost in vrijednost_karata:
-      if vrijednost_karata.brojac(vrijednost) == 4:
+      if vrijednost_karata.count(vrijednost) == 4:
         return True
 
   def ful(self):
@@ -136,14 +169,135 @@ class Pokerrezultat(object):
     tri = False
 
     vrijednost_karata = [karta.vrijednost for karta in self.karte]
-    if vrijednost_karata.brojac(vrijednost_karata) == 2:
+    if vrijednost_karata.count(vrijednost_karata) == 2:
       dva = True
-    elif vrijednost_karata.brojac(vrijednost_karata) == 3:
+    elif vrijednost_karata.count(vrijednost_karata) == 3:
       tri = True
 
     if dva and tri:
       return True
 
     return False
+
 #unos igraca
 #početni saldo, ulog za svaku rundu
+def virtualni_poker():
+  igrac = Igrac("Pero",200)
+
+  # Početni iznos
+  bodovi = 200
+
+  # Iznos po svakoj ruci
+  ruka = 5
+
+  kraj = False
+  while not kraj:
+    print( "Imate {0} bodova".format(bodovi) )
+    print()
+
+    bodovi-=5
+
+    spil = Spil()
+    spil.shuffle()
+
+    for i in range(5):
+      igrac.dodaj_kartu(spil.djeljenje())
+
+    # Da se vide
+    for karta in igrac.karte:
+      karta.vidljivo = True
+    print(igrac.karte)
+
+    ispravan_unos = False
+    while not ispravan_unos:
+      print("Koliko karata želite? Zarez nakon svake karte! ( 1, 2, 3 )")
+      print("*Prtisnuti return za sve, upišite izlaz za prekid igre")
+      uneseni_str = input()
+
+      if uneseni_str == "izlaz":
+        kraj=True
+        break
+
+      try:
+        unos_lista = [int(uns.strip()) for uns in uneseni_str.split(",") if uns]
+
+        for uns in unos_lista:
+          if uns > 6:
+            continue
+          if uns < 1:
+            continue
+
+        for uns in unos_lista:
+          igrac.karte[uns-1] = spil.djeljenje()
+          igrac.karte[uns-1].vidljivo = True
+
+        ispravan_unos = True
+      except:
+        print("Greška: Između svake karte ide zarez!")
+
+    print(igrac.karte)
+    #Rezultat
+    rezultat = ProvjeraRuke(igrac.karte)
+    skala = rezultat.skala()
+    boja_fl = rezultat.boja_fl()
+    najveci_broj = rezultat.najveci_broj()
+    parovi = rezultat.parovi()
+
+    # royal_flush
+    if skala and boja_fl and skala == 14:
+      print("Royal flush!!!")
+      print("+2000")
+      bodovi += 2000
+
+    # skala u boji
+    elif skala and boja_fl:
+      print("skala u boji!")
+      print("+250")
+      bodovi += 250
+
+    # Poker
+    elif rezultat.poker():
+      print("Poker!")
+      print("+125")
+      bodovi += 125
+
+    # Ful
+    elif rezultat.ful():
+      print("Ful!")
+      print("+40")
+      bodovi += 40
+
+    # boja_fl
+    elif boja_fl:
+      print("boja_fl!")
+      print("+25")
+      bodovi += 25
+
+    # Skala
+    elif skala:
+      print("Skala!")
+      print("+20")
+      bodovi += 20
+
+    # Tris
+    elif najveci_broj == 3:
+      print("Tris!")
+      print("+15")
+      bodovi += 15
+
+    # 2 para
+    elif len(parovi) == 2:
+      print("Dva para!")
+      print("+10")
+      bodovi += 10
+
+    # 1 par
+    elif parovi and parovi[0] > 10:
+      print ("Jedan par!")
+      print("+5")
+      bodovi += 5
+
+    igrac.karte=[]
+
+    print()
+    print()
