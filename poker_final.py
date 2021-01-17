@@ -176,7 +176,6 @@ class ProvjeraRuke(object):
 
     if dva and tri:
       return True
-
     return False
 
 #unos igraca
