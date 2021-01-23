@@ -1,1 +1,604 @@
-<mxfile host="Electron" modified="2021-01-16T22:00:50.634Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/14.1.8 Chrome/87.0.4280.88 Electron/11.1.1 Safari/537.36" etag="d4F1io4yhRU06u8QXk3j" version="14.1.8" type="device" pages="7"><diagram id="1rjIhaceOna3B25xuHaN" name="slučajevi_korištenja">zVnbbuIwEP0aHotyI5dHCmy7UldFQttu+2aISUwDjhxz26/fCbETJynisqUJL3iOx+PM8clkCB1zsNw9MBSHv6iPo46h+buOOewYhq4ZFnylyD5Dep6ZAQEjvnAqgAn5i+VKga6Jj5OSI6c04iQugzO6WuEZL2GIMbotu81pVN41RgGuAZMZiuroK/F5mKGu4RT4IyZBKHfWbS+bWSLpLDJJQuTTrQKZo445YJTybLTcDXCUkid5ydb9ODKbXxjDK37OgpfB4DWONPedPlE8ert7ex7270SUDYrWIuGfAUOdgdVxwbAjiHw/ZTAK0pFIhO8lO5BTnA7Xy6g/45SBzwYzToC/JzTF0ZgmhBO6Apcp5ZwuFYd+RIJ0gtMY0JAvIzD0fBc1MXmVsBLvFEgk+oDpEnO2B5dcd4J0oTrdEva2OENTQKFyfLbAkFBNkEcuiIWB4PYCno0az0OywNECrxYY8A/EEEc1eiEw6ByM+21IOJ7EaJbObOFW+3LKTKdMmVdnLGdRpcy5FWWyAiic/Y5QgA6MtYgovXmm6nfxsz9FM7JBrZWX4TbOmlljbczoZoGh/gFNKPLbxZhpN86YdYwxAihbf6xbRZjVa5wwp17CVjRJl+VP2XaJTG+cMrdOWfJJwV/5/bS7A4vGGNqIe0BE96hDvvc+SkLsC6IUzvCO8D8w1rpOT5hvB1NODlNmNGnsFWMMOockMZPYChL+oxpZpJ40i1AHS8Y6emwJXbMZPt2tccQCzE93G9gv9bZ1EainLKsLwxHiZFNufz87ZhFuTAmkkQsqr+tSUFWlZEmKVWq7eiqQWwmUsVALdFBdnuN/dGz1lu1rhSjVc6d1Nc0uS8jWzBMiOlhVRR5V1knFyPu+CcnoZuWkq1342ZLxTgS6tWTqHcVtJHNhwSlqXrnk9S4uebcvXbKXPSlEceaHu8e0SucuN7uNVrtueTfdcbuud51i4fELl6987ErN07u6Om2cpediG+lI5/ME30bz9Z6wXZpXFH/5I/4b9G41WnhrYvacrnMbMRtaZdr83uLca7dQ9bYL1WxQqHblwe5d2SGYnteFYPlHr4Q1uoZab62zFAp6QXvFLU4dkuPZGFblVYhdenELgyzitfIPX6yl/rgdf7y/jCZz3/X0/usnLyBv9LOq1GK0UcdOi3SsXatj40Sgq4spmMVfEpl78ceOOfoH</diagram><diagram id="LjTDrCnEdMiGGxhTBYCO" name="aktivnosti">5VrbVuI8FH4aLnX1CHgpoKLOqHhmblyhTUswbfqHcPLp/4SmtKW1Fik4o97Y7O6E5NvfPiRpTW978zMKguFvYkNc0xR7XtM7NU1TFc3g/4RkEUrMIz0UuBTZUikW3KE3GPWU0gmy4TilyAjBDAVpoUV8H1osJQOUkllazSE4/asBcGFGcGcBnJU+IZsNQ2lTa8TyLkTuMPpltX4UvvFApCxXMh4Cm8wSIv2kprcpISx88uZtiAV4ES7D/87Zn1Zv+Opd6zDo3bVf+95BONjpJl1WS6DQZ58e+sp78a6Up+7l6MY7NZzmqavOD6QtpwBPJF5yrWwRAQhtjqdsEsqGxCU+wCextEXJxLeh+BmFt2KdX4QEXKhy4QgytpDkABNGuGjIPCzf8mXRxbPof2hGzb4cbtnozFOthWyVxEXiNyYTaslFvZyO7qftx+sDa9K/I8G58YIDiZ/CAHUhK9CTGAlgEhyTqJ9B4kE+Sa5AIQYMTdNEBJLP7kpv1fWGIL4OTZG+pzXNsEvkeUp6hHCeslNseP6QmEUsWtIhnxpFaBRSA2PuxjBtTO4mgXgPffuOASbeOgjjNsGELrvpyvJPqDJKXmHijePIN5tZdgopg/NCW0SYNpQUplGUmsWhQZeiYSIq6Mr7xkvhvinIWgbkB5+MueTcpaDWNmrNDsjAHvubwHs2RAzeBWBJ7RkP4mlzAGpJvzMEsA7xWZ4p1kzk8D/ri0ykmWsmytpI1XZkpAXrnV3+fn277wWwU1esrnNbz/GEG2KPuHNz4SuggP10E+l6SRMZFZgIOobRb13cdoZKe3bdJah7+fBNg9UazA1zf9Hq6qH3oh03+uwGjToGwj1F7a9WsFW1kEBfQIF4qXaMketz2YAwRrxlmrePRe0nBgmgH0qkjzQLbbH/UqIoZCRLCQPCc6Xz1u6PWrNe8DhQb6ER6e27lDCUcrVEdqBGo3igEJkqipJcBhrNTzDuy+rTZesGUsSXDenWTMtHxMhSrY0vOpPW5OSW/WGPwbM+B4/+V1HNbO6sbC3EI5mtKZmOIK+n9OOaVsccpNaA8idXPN2QwQjaIpUjjIRhCAVvPzyfG0d7zOe5VjSzCR2tKmIu96EnTOaTKbCy1dc+QsIcsefIzflzP44OvBXHA9FIhYPPhBE+SHVRpCg4JINIUZ31YRCRxFIO9bqpprh1IKm2bZgx1mqjkokoHihSJI4zhluHorzDlWwkyjI1LnQsDMZjZL1DsxW1+ok31dLs85Qq2tomKfVE2/cXF6b74Fmtrs7Gr9rtbWlKJWKRmROKItmWvNKP0gcEmVOXD3n1Th5Ud5cHc2E1vjQq/tV0LaLhh3St/PCvbJ4smnUixFzbYIDospAJsyVkPnEFAgDbP/2gQm3ssbDJNZj5r7hlxe6Vkw2KNs5/iXtlj2dX7jXBxP3p7rRyk324U1HdWlRihTBFd39a/vmfN3fF9eehg8nMGgLKDm1ooTEi/jtm3BnE9cZhGuR6zvm3bmYxruLULxfjrBOktmIBGSC+g0bkKyObWttgG5aznVoVIavjnsRIOylC9rsNU9RGNfsufet9VzSQmi60GyWvN/l2CSwSaoFQGBdMWNHT7qQrG81rU/1G3VzzuHDGa70XufhXshfNZVaZi/6Se9Hv62v7Kfjf4ZGW5pGqGEaUCTb1LaPEWBW5l2GsuYtqFk9tTZ+nt/fdpSryZw9ixMGhsBlPP/nHh7/AAGKRoeAYvYHB8pWyVr7JWyuL81GQO3Od5SHbXqa5LHOLfFR+CSV/tLb6/qhEEVF5VVx0aZWqigfAQlPgj2Dtn7gTz2BZNrCUP0PP+bRkZ7Vxrpm+/W3tWkhOx/wi5pbNIcncUHDZtPs7tMo+/eLN+IPFUD3+7FM/+R8=</diagram><diagram id="RKMDYkyScEELAbWrFlR2" name="aktivnost:unosIgrača">7VlbV+IwEP41PC6n9ILwiICuq6uexXV1XzyxDW3YtOlJw6X++k1oSi8pFVwu7lFe6EwmaTLzfZNJ2jD6/uKcgtD7ThyIG7rmLBrGoKHrLU03+Z/QxInG6hqJwqXIkUaZYoReYNpTaqfIgVHBkBGCGQqLSpsEAbRZQQcoJfOi2Zjg4ltD4EJFMbIBVrW/kMO8RNuxtEz/FSLXS9/c0mSLD1JjqYg84JB5TmUMG0afEsKSJ3/Rh1g4L/WLfzPsPTAXXDn3gIEbfMcI+pIMdrZNl9USKAzYm4cOB/eTn722fwu/dQcY6b+Rey27aDOAp9Jfcq0sTh3IR+Gx4sKpx3zMdS3+yH0RivaIAcpGDDDRPkYY9wkmdNnR0JY/Ycwo+QNzLeOxbNlwYdIBM0gZXOTCKhd6DokPGY25iWw10iDGqZyI8wwBqcrLBT/VAYk5dzVw5lf+IF27hZtbG7jZ4bCVIqHMIy4JAB5m2rz7hScQx3gPIzfgumfCGPF5AwycniCNGCSEQaKRpOzUhoJHgMYPXKk1rVR8FGIqDBYFKZbSdiGMyJTa8HVAcli5kNXYSQcKr9UCgkIMGJoVk0FVfGXXW4L4OjIgtawCkFp6CSLJRGWvEkpW03g7cHQFOBcuBVzzAjw2gTPxOA1IJMbxYSBEJAz6ZqMzAArIKJkGDnQkiuYeYnAUgmVA5jz9F0EGqC2RY4pAj0nAqthdYv2Y/+zjsF63SsHSVNqvApjnvbkv3hufvN+Q9/qGvDePw3tdOyzvzWreL2ktKY8Szn90jneOzXHrk+MbctzckOPtI3G8szeOd07Pf5CLO2o/Xd5rZ5fd/pMer9y2DU4ycov4ZDZXhIQSPxPIWCxhAaaMFNEFF4jlkMClx1xLhgMh7AkGbRUGlf7Rdg2Df6J5e10lFlIym0AKcrXYh87IevuAGbkOOHUZOXFTeiGgVx9u/YUr7kSaY0zmtscPuk0H2ihCJFgTxr25uHvSLDrZqHCyYak+3sWJttLH6sFEzWbZfmVjEEXIrk5FrVwiytJSdSoSwi2kvO5hkOb3rNVAq70t2+p2vrvVoe7dnFxPSlcgrRIUkgUpu5sykPnaQGu2SR57EOfMQmEQrZ+wqZfec2LVz6tkn+aYDNXJDHa6Z6sHumuIolBk/2Bd+heRvgLPEIv9G0boBTwvm7RS4pf1ns3hKLCtFII+cpxlEaACt46i8mJVvrSxus7cIP3sfGetnKd61nlzKtmmqqlKJftPCZV2hyp4d5USypWzeeDKWT1yXbxTDpr/CQfV6lZ1Yd13AHESffdfAcyKu4IdfQbgYvYhKIF59jnNGP4F</diagram><diagram id="sockBd5U9yODXwl6bMcv" name="aktivnost:unosSalda">7VnbUtswEP2aPJLxLcQ80hAKHWCYptOWp46wN7aCYrmycjFfXymW705iAknoQF7iPbpY3j1nV5Y75mC6/MpQ6N9SF0jH0Nxlx7zoGIauGZb4k0icIL0zMwE8hl3VKQdG+BnSkQqdYReiUkdOKeE4LIMODQJweAlDjNFFuduYkvJdQ+RBDRg5iNTRX9jlfoLaPS3HrwB7fnpnXVMtU5R2VkDkI5cuCpA57JgDRilPrqbLARDpvNQvs28uvhxePZ2f/PgC0dJF13c3J8lkly8Zkj0Cg4DvPPXienx7G//9GfnfJ3fEhz8nzFZDtDkiM+Uv9aw8Th0oZhGxEsYXn0+JwHRxKXwRyvaII8ZHHHHZPsaEDCihbDXQ1FY/2Zkz+gSFlvFYtai7A+OwrIRry7PqWQAEc4FOgbNYjFOzmGkQ49ROzEXOgBTyC8FPMaQ452UT534VF8q1L3Cz3sLNrqCtMinjPvVogMgwR4vulx7DguPnBHuBwB4p53QqGiBwz6Vo5CQhBAmiRGlvDIVwN4t/C1Dr9lLzQZqpcbEsWbGykgeRq98hgMIDdMYc2M5QwTMP+IZ+RjMhGBDE8by8uKb4qqH3FItl50TSeyUi6UaFIsm61KgKS7Jl7E4co0aca48hgTwjn09gLi9nAY2kx2lnYHXsC+AB9aRnEXFRjWaMzgIXXMWjhY85jEK0isBCFIAyzRBzFHcsGeoxDXiTviu6H4ufcxzdG71KuLS68LMQFpVv7Uv55qfyd1W+0VL51kGUb2iHVb7VrPyVxJXocVn1WImefnTR28cWfe9T9LuK3mop+v5hRG8fVvSnO/AkF7eMT97nhtJQ8WcCnMeKFmjGaZldsMS8wARhPRRach5I41A06Lekgf1KGrxK5v11m7OQ0fkEGCpszz50RjZOj52R7e0ZOXFTekZgNL/vTpeePCbpjgldOL549+264OAI02BNGPfm4rN+t+xks8HJZq/u47295J61qHp5vXIIiiLsNKcivZCI8rTUnIqkcQ8Mi4cAVqxZ2URZbctL3ZGqm90yre3pZbZfORXRK1RI1l+rbrWJrG0TrSmTIvYoLnQLZYdo/YIto3Kffm/zuir90xyTszpZwZvWbL1+hnYHOApl+g/W5X9JsRv0CEQWcIjwM3pcNWmVzK82fI6gnyR3bSc4xa672gUkd1CHqGqyTnZ0uSX/rJfzsUqr3ubErGUyecm+pimZvJekoJvvOytUN8/WgTfPesNh2f8vQ33NPuBAOmxzfrXpA4F8H333nweshhODN/o+IMz8C1HC9Pw7mzn8Bw==</diagram><diagram id="dhQvndnJ3bdJJg44SbtS" name="aktivnost:unosUloga">7VlbV9s4EP41eYTjKwmP1NBuT2GXPfScFt6EpdgC2XJlOYn59StF8t1JTCBO99C8xDO6WJ755puRNLG9aPWFgSS8oRCRiWXA1cS+nFiWaViO+JOaXGncc1spAoah7lQp7vALKkZqbYYhShsdOaWE46Sp9GkcI583dIAxumx2m1PSfGsCAtRR3PmAdLU/MOSh0s5co9L/hXAQFm82Dd0SgaKzVqQhgHRZU9lXE9tjlHL1FK08RKTxCrtcfvX5w63rf/k392j+3X34J784UZN9fs2Q8hMYivneU/+6+H7j/Vzcf7qNPff6+fPD3CZ6iLEAJNP20t/K88KAYhbhKyF8CnlEhM4Uj8IWiWxPOWD8jgMu2+eYEI8SytYDbWP9k505o8+o1jKf6xb9dsQ4WrXcteNbzdIBArmIRoizXIzTs9iFE/NCVuKyQkChCmvOL3RAYy4oJ67sKh60aV9hZnOAmaGArRYp4yENaAzIVaWtm19aDAuMXxAcxEL3SDmnkWhAMbyQQSMnSVCsNDooZ1tdIczN8p9CaZy6hXgvxUK4XDWkXEvqQ+Tq93CgsADNmI92I1TgLEB8Sz+rHxAMEcDxorm4Pv/qobcUi2VXQDLdBpBMqwURtS49qoWSchn7A8fqAOdrwIDQvICQP6GFfMximso/QgPVIs1KnhBEE8+ZzKaZNEMWw6yDOUaFGkENqmWIObpLwNodS5ENmpgDzNdAcqTf5zTmfcHeIoG5+PnHIQHLbfnO6LJA6c86DTiHogH7Dw3sSwPWQBpwRqEByxiXBpx+GpDhfakZAGsK+OhBPjt2kLt/gnzfIHcGBvl0nCCfjRvkZ3vgpApu6Z+qzzWlicbPE+I817AAGadNdKEV5jUkCOm+1lLhQApjwWA6EAazN8LgTWE+3VSZJYwunhADtdrsQzOydXZsRp7tZmRlpuKAwOrf7EarQJ6RnM4JXfqh2PieQuTjFNN4gxsPZuLz6WnTyHaPkW23a+OD7XDPB2S9Kl/5BKQp9vupyKwRUUVL/VQkhVvEsPgIxOo5q5yozG1VqjtSdpsNpLUD7WSnrSMRswUFtf5OdutM5OyaaEOaFL4Hea1bIjukmxfsWK33TN3t62r1LzimQrVawbvmbLN7gPY3wmki6T/exP8SYtfgERGZwFGKX8DjusloMb8u+HwBPwnuTiUYYQjXVYB6gz5B1ZNNynPLHfyzOZyPlVrNIcdlA8nkNXXNVjL5zUrlHjLxzFXsmG7yzGB68+2E8huQnhhvdOSByaRdcztn49bcZs8B2/8/es0N5cNI4TvkmGvbpYLcxv72Vwru+Xh3Cpsju2FlrDYgFGYvOJJPuDwkkmfAKSCQdjzxsTYjZfEyxmak120f7yqonsu2IXlobtxZQCsCevekV+amggHeLVcJsbpGVt2ry3j76j8=</diagram><diagram id="s5Q6_GDv0VMigiIdE6T3" name="aktivnost:odbacivanjeKarata">7VnbcpswEP0aHtMBBLbz6DhOmk467cTTafPUkUEGJYAYIXz7+kogLG62SezESRM/2NLqyu6es8taA6NweU1h7H8nLgo0U3eXGrjUTNPQTYv/CMkql9jnIBd4FLtykhJM8BoVK6U0xS5KKhMZIQHDcVXokChCDqvIIKVkUZ02I0H11Bh6qCGYODBoSn9jl/m5dGDrSv4VYc8vTjZ0ORLCYrIUJD50yaIkAmMNjCghLG+FyxEKhPIKvfSIeQ1/DHtD5+6vbfZ/6cE3/yzf7OopSzaPQFHEjru1mW89h0Eq9SWfla0KBfJduK1458JnYcBlBm9yXcRiPGGQsgmDTIzPcBCMSEBothDo2UdMZpQ8otLIbCZH5OmIMrSsmWvPsxobA3DPRSREjK74OrkL6EubSaftye5CeQCQIr9k/EIGpc95m42VXnlDqvYJagYd1Oxyt5VdQplPPBLBYKykZfULjWHu48MAexGXTQljJOQDKHKHAjRikxhFuUSCctDBFOIWFUMkJKUO2u9B3QzGsQ+ph3bNs9oNS1EAGZ5XL9dmJ7n0J8H8OsohBnbFIQy7Zur8XnJVzdqbazzfAayGA9x4FAq9YSZ+sOiNLG1wKXrayNYuxijAvJ19EXcKHcxE85EDDjW8h5I0cpEr3WPhY4YmMcwMt+C8XvUeSB3pEpaw/IxErA22NTjP+Mc5EZzNmvVAE8+G2QJo66UA3esAaAVFJ4BJgp2qFdASsz+8rX+xZe++NHIpHl0vOquiE/HLlxaJ7n15TC3LesW6LeDuCtq9JGA1wQ1MK9Tv4PDq3DlzXBYvVg/hmd5u5kPBXWN7oNfMnt+/Ae69LGEOurEEtzNclabFYkLSnY2Kc5RH5jselYL6DZdVpFNQTPqAtlKM8J5bOOXpIbigKMFrOM2G9Bq5yJDkcM9CtCVWhdh1s3imlfM+uZnKtp7DIr0D3asrJbT6ttGqsd0hXdG20KKac0tILPX5gBhbSbqGKSP/BYlsJ4cOJGK+SoawIZXjZwi7nn5rhvBIytjUK9gt5wt4XaQKHzpFMPuvmCK0GtT65IPD+MDsyAfglKzffIGWsE3XOKxm9mkWZeGUwmh7lP1YKAX2qVFqvJuw/dJwAx3hZp8Sbs1Cyk05ELpkiucCdRGZf2JMQsc6NcbshtGamNtVZBQlrDdfYrRfscbYquXzDlruWJIwSqSkKGpP9mBUcgeVSrzxksShdNatJGE9tyRh7dvoSCUJa1A9pyiQbruXbRw23+7bNY8/rOTRHty3vFQV4WINXZq/O8EsaryHwsd27B8/JvOu+nsrN4r6kxCM/wE=</diagram><diagram id="--7HRGIv60iIBSO-9n52" name="aktivnost:Provjera">5VlZc9owEP41PCbjk8BjQ65OaNOWdpr0pSMsGYvYXkYWV359JSyfMlcgpZ3wEu9KWkv7fXvIadm9aHHL0CT4BJiELcvAi5Z91bIs07Ac8UdqlqnG7dqpYsQoVpMKxYC+kGyl0k4pJkllIgcIOZ1UlR7EMfF4RYcYg3l1mg9h9a0TNCKaYuChUNf+pJgHqbbjGoX+jtBRkL3ZNNRIhLLJSpEECMO8pLKvW3aPAfD0KVr0SCidl/klHjwMw3bAxk7/s8H7wd038nSWGrvZZ0l+BEZi/mrThnl2c+lH4YJh+84Yj+e3v76rJcYMhVPlL3VWvswcKKwIrIRwGfAoFDpTPApfTOR4whHjA464HPdpGPYgBLZaaBurn5zMGTyT0ojvqxH1dsI4WdTg2nJWMwdAMJdARDhbinXKit1WB8tIq8R5wQBbqYIS+JkOKc6NcsOFX8WDcu0ebjZ3cDMWtFUiMB7ACGIUXhfasvulx6jg+IeQjmKhGwLnEIkBEuMPMmikkQmJU40Kys5GKIS72fJRKI1zNxOfpJgJV4uKtFRSehC5+wqACUyZR7YzbzegRc5AbET4BntWMyEYCRGns+rmmvBVS78AFdspiHThVohkOjWKpPtSq2osybfxeuK0X8ETBtMYE6zwKeb0ASaKP2PC+VLRAk05VNlFFpSXmCCkp9JIwQMpbKHBrvBupYu1Iw2cA2lwUJhbWph/HDEk3cBgNiYMzaTwLFIm0XAtUJOOngeUk8EErXwyF5W5ihBinkLPkc73IeZNibeWkH3x806UkM1aHNl6RjathpRcj7ejYeU0Y9VzWp0ruTaSUGEYUh5PJWgQDWmMPDqephAijt45hnmLdzIML3Yoq0VB9EKUJNRrznVmKdMVea851+Wl0qwUyqJu7lcqj5YjHT1H/r4fYLdz77PLhx/oEb8g6+HrmdEM84Gl0qn1XJbVPXerRtITaMVSM+VuN7Wm7gqs0bI0bSInJBs23am9yTY27kyb395vvr2nfcd1a1GSnvCoTUZHC6NYr0+Stn00FLdD0WGQhL6g4WrIqGU11ZF6gtKENbSqEcV41aa0ytc+ZayVX7a2pK/16eB4vFYQnF3UqAe+n5A36fa6x8tn+/RuR2793zKfNd+u1tStQ3v/WhayjVod2zWd1S8RtvV3LxGmfsvHevPyHwR490CcD7vD65d41d1jNCZydd4/yhZxCBhmUg0zmsQgHyptJNUAeF/dYx4EJ+seTf261hgU7+mrjLlnDj9Rr1nPqI77Zhl1/akO+Gwq4f/nP5o6jh6hR/pqKsTiu3kKSvHfB/v6Dw==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-01-23T18:05:06.833Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36 OPR/73.0.3856.329" etag="e3cgkafSNiwZHgkcWrYY" version="14.2.7" type="github" pages="8">
+  <diagram id="1rjIhaceOna3B25xuHaN" name="slučajevi_korištenja">
+    <mxGraphModel dx="828" dy="452" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VCCWpl08ZoLoeEY-YODA-1" value="Igrač&lt;br&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="140" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VCCWpl08ZoLoeEY-YODA-2" value="Dijeljenje karata" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="370" y="90" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VCCWpl08ZoLoeEY-YODA-10" value="Ulaganje" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="370" y="190" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VCCWpl08ZoLoeEY-YODA-11" value="Odbacivanje karata" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="370" y="280" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VCCWpl08ZoLoeEY-YODA-13" value="Provjera salda" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="370" y="360" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VCCWpl08ZoLoeEY-YODA-14" value="Provjeri ruku" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="370" y="450" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VCCWpl08ZoLoeEY-YODA-17" value="Unos igrača" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="370" y="10" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VCCWpl08ZoLoeEY-YODA-18" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=0.75;exitY=0.1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="VCCWpl08ZoLoeEY-YODA-1" target="VCCWpl08ZoLoeEY-YODA-2" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="280" y="170" as="sourcePoint" />
+            <mxPoint x="280" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VCCWpl08ZoLoeEY-YODA-22" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;entryX=-0.006;entryY=0.603;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="VCCWpl08ZoLoeEY-YODA-10" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="130" y="160" as="sourcePoint" />
+            <mxPoint x="290" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VCCWpl08ZoLoeEY-YODA-23" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="VCCWpl08ZoLoeEY-YODA-1" target="VCCWpl08ZoLoeEY-YODA-11" edge="1">
+          <mxGeometry x="-0.0034" y="-1" width="160" relative="1" as="geometry">
+            <mxPoint x="130.84" y="178.89" as="sourcePoint" />
+            <mxPoint x="370.00000000000006" y="181.10000000000002" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VCCWpl08ZoLoeEY-YODA-24" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="VCCWpl08ZoLoeEY-YODA-1" target="VCCWpl08ZoLoeEY-YODA-14" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="130.84" y="197.79" as="sourcePoint" />
+            <mxPoint x="370.00000000000006" y="200.00000000000003" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VCCWpl08ZoLoeEY-YODA-25" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="VCCWpl08ZoLoeEY-YODA-1" target="VCCWpl08ZoLoeEY-YODA-13" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="160" y="190" as="sourcePoint" />
+            <mxPoint x="399.1600000000001" y="192.21000000000004" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="240" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hV4m1HwPkZVESfd891AW-2" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="VCCWpl08ZoLoeEY-YODA-1" target="VCCWpl08ZoLoeEY-YODA-17" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="160" y="100" as="sourcePoint" />
+            <mxPoint x="320" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="LjTDrCnEdMiGGxhTBYCO" name="aktivnosti">
+    <mxGraphModel dx="828" dy="452" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="hqItZBQhkmO3epQSCkYm-0" />
+        <mxCell id="hqItZBQhkmO3epQSCkYm-1" parent="hqItZBQhkmO3epQSCkYm-0" />
+        <mxCell id="Nm_mN0WHKjPmF4f8Fg1x-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="hqItZBQhkmO3epQSCkYm-1" source="_FjTvCVO-cuYSopI4_lp-0" target="_FjTvCVO-cuYSopI4_lp-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="285" y="50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_FjTvCVO-cuYSopI4_lp-0" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" parent="hqItZBQhkmO3epQSCkYm-1" vertex="1">
+          <mxGeometry x="270" y="10" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_FjTvCVO-cuYSopI4_lp-2" value="Unos Igrača" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="hqItZBQhkmO3epQSCkYm-1" vertex="1">
+          <mxGeometry x="225" y="100" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ytQGKMkzTQpeD60cHfR6-0" value="Podjela karata" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="hqItZBQhkmO3epQSCkYm-1" vertex="1">
+          <mxGeometry x="225" y="330" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ef44YBJRDh0CwOHoiHKU-0" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" parent="hqItZBQhkmO3epQSCkYm-1" vertex="1">
+          <mxGeometry x="225" y="750" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NUQ_2A7YtPijD4ilQ01Y-1" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="hqItZBQhkmO3epQSCkYm-1" source="ytQGKMkzTQpeD60cHfR6-0" target="4eeI0DzCYjBwQpVb1Re4-0" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="285" y="400" as="targetPoint" />
+            <mxPoint x="277" y="400" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NUQ_2A7YtPijD4ilQ01Y-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="hqItZBQhkmO3epQSCkYm-1" source="NUQ_2A7YtPijD4ilQ01Y-44" target="ClJDuBuERtZtVpX3xaVn-0" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="285" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NUQ_2A7YtPijD4ilQ01Y-44" value="Provjera:&lt;br&gt;Pobjeda ili poraz" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="hqItZBQhkmO3epQSCkYm-1" vertex="1">
+          <mxGeometry x="225" y="490" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NUQ_2A7YtPijD4ilQ01Y-50" value="igrač nema novaca" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" parent="hqItZBQhkmO3epQSCkYm-1" source="ClJDuBuERtZtVpX3xaVn-0" target="ef44YBJRDh0CwOHoiHKU-0" edge="1">
+          <mxGeometry x="0.3651" y="-5" relative="1" as="geometry">
+            <mxPoint x="245" y="700" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nm_mN0WHKjPmF4f8Fg1x-4" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="hqItZBQhkmO3epQSCkYm-1" source="_FjTvCVO-cuYSopI4_lp-2" target="WrCTJJ5gUmcBH3tsk2RR-0" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="250" as="sourcePoint" />
+            <mxPoint x="285" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WrCTJJ5gUmcBH3tsk2RR-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="hqItZBQhkmO3epQSCkYm-1" source="WrCTJJ5gUmcBH3tsk2RR-0" target="WrCTJJ5gUmcBH3tsk2RR-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WrCTJJ5gUmcBH3tsk2RR-0" value="Odabir početnog salda" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="hqItZBQhkmO3epQSCkYm-1" vertex="1">
+          <mxGeometry x="225" y="170" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WrCTJJ5gUmcBH3tsk2RR-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="hqItZBQhkmO3epQSCkYm-1" source="WrCTJJ5gUmcBH3tsk2RR-2" target="ytQGKMkzTQpeD60cHfR6-0" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WrCTJJ5gUmcBH3tsk2RR-2" value="Odabir uloga" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="hqItZBQhkmO3epQSCkYm-1" vertex="1">
+          <mxGeometry x="225" y="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ClJDuBuERtZtVpX3xaVn-0" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="hqItZBQhkmO3epQSCkYm-1" vertex="1">
+          <mxGeometry x="267.5" y="600" width="35" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ClJDuBuERtZtVpX3xaVn-2" value="igrač pobijedio" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="hqItZBQhkmO3epQSCkYm-1" source="ClJDuBuERtZtVpX3xaVn-0" target="ef44YBJRDh0CwOHoiHKU-0" edge="1">
+          <mxGeometry x="0.0175" relative="1" as="geometry">
+            <mxPoint x="345" y="700" as="sourcePoint" />
+            <mxPoint x="310" y="750" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="303" y="630" />
+              <mxPoint x="310" y="630" />
+              <mxPoint x="310" y="765" />
+            </Array>
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ClJDuBuERtZtVpX3xaVn-3" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="hqItZBQhkmO3epQSCkYm-1" source="ClJDuBuERtZtVpX3xaVn-0" target="WrCTJJ5gUmcBH3tsk2RR-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="1044.5" as="sourcePoint" />
+            <mxPoint x="420" y="1044.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="440" y="615" />
+              <mxPoint x="440" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ClJDuBuERtZtVpX3xaVn-4" value="nova runda" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" parent="ClJDuBuERtZtVpX3xaVn-3" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4eeI0DzCYjBwQpVb1Re4-0" value="Odbacivanje karata" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="hqItZBQhkmO3epQSCkYm-1" vertex="1">
+          <mxGeometry x="225" y="410" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4eeI0DzCYjBwQpVb1Re4-1" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="hqItZBQhkmO3epQSCkYm-1" source="4eeI0DzCYjBwQpVb1Re4-0" target="NUQ_2A7YtPijD4ilQ01Y-44" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="285" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="RKMDYkyScEELAbWrFlR2" name="aktivnost:unosIgrača">
+    <mxGraphModel dx="830" dy="452" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="mOEAXtgaLdVataOlTtoi-0" />
+        <mxCell id="mOEAXtgaLdVataOlTtoi-1" parent="mOEAXtgaLdVataOlTtoi-0" />
+        <mxCell id="pDVjUA6mPeJ9Dli2ZigN-0" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" parent="mOEAXtgaLdVataOlTtoi-1" vertex="1">
+          <mxGeometry x="300" y="30" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pDVjUA6mPeJ9Dli2ZigN-1" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="mOEAXtgaLdVataOlTtoi-1" source="pDVjUA6mPeJ9Dli2ZigN-0" target="pDVjUA6mPeJ9Dli2ZigN-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="315" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pDVjUA6mPeJ9Dli2ZigN-2" value="Igra zahtjeva unos imena igrača" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="mOEAXtgaLdVataOlTtoi-1" vertex="1">
+          <mxGeometry x="255" y="100" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pDVjUA6mPeJ9Dli2ZigN-3" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="mOEAXtgaLdVataOlTtoi-1" source="pDVjUA6mPeJ9Dli2ZigN-2" target="pDVjUA6mPeJ9Dli2ZigN-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="315" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pDVjUA6mPeJ9Dli2ZigN-4" value="Igrač unosi ime" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="mOEAXtgaLdVataOlTtoi-1" vertex="1">
+          <mxGeometry x="255" y="180" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pDVjUA6mPeJ9Dli2ZigN-5" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="mOEAXtgaLdVataOlTtoi-1" source="pDVjUA6mPeJ9Dli2ZigN-4" target="pDVjUA6mPeJ9Dli2ZigN-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="315" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8BGRoITrc_KV0FK9C_2y-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="mOEAXtgaLdVataOlTtoi-1" source="pDVjUA6mPeJ9Dli2ZigN-6" target="8BGRoITrc_KV0FK9C_2y-0" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pDVjUA6mPeJ9Dli2ZigN-6" value="Igra provjerava unos" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="mOEAXtgaLdVataOlTtoi-1" vertex="1">
+          <mxGeometry x="255" y="260" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8BGRoITrc_KV0FK9C_2y-0" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="mOEAXtgaLdVataOlTtoi-1" vertex="1">
+          <mxGeometry x="297.5" y="360" width="35" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8BGRoITrc_KV0FK9C_2y-2" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="mOEAXtgaLdVataOlTtoi-1" source="8BGRoITrc_KV0FK9C_2y-0" target="pDVjUA6mPeJ9Dli2ZigN-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="310" as="sourcePoint" />
+            <mxPoint x="470" y="310" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="420" y="375" />
+              <mxPoint x="420" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8BGRoITrc_KV0FK9C_2y-3" value="Neispravan unos" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" parent="8BGRoITrc_KV0FK9C_2y-2" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8BGRoITrc_KV0FK9C_2y-4" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="mOEAXtgaLdVataOlTtoi-1" source="8BGRoITrc_KV0FK9C_2y-0" target="8BGRoITrc_KV0FK9C_2y-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="310" as="sourcePoint" />
+            <mxPoint x="315" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8BGRoITrc_KV0FK9C_2y-5" value="Ispravan unos" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" parent="8BGRoITrc_KV0FK9C_2y-4" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8BGRoITrc_KV0FK9C_2y-6" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" parent="mOEAXtgaLdVataOlTtoi-1" vertex="1">
+          <mxGeometry x="300" y="480" width="30" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="sockBd5U9yODXwl6bMcv" name="aktivnost:unosSalda">
+    <mxGraphModel dx="830" dy="452" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="uJdiFEHkA-TBesxdaINL-0" />
+        <mxCell id="uJdiFEHkA-TBesxdaINL-1" parent="uJdiFEHkA-TBesxdaINL-0" />
+        <mxCell id="wIfMMyqVshRjNlhe_-r8-0" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" parent="uJdiFEHkA-TBesxdaINL-1" vertex="1">
+          <mxGeometry x="300" y="30" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wIfMMyqVshRjNlhe_-r8-1" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="uJdiFEHkA-TBesxdaINL-1" source="wIfMMyqVshRjNlhe_-r8-0" target="wIfMMyqVshRjNlhe_-r8-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="315" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wIfMMyqVshRjNlhe_-r8-2" value="Igra zahtjeva unos početnog salda" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="uJdiFEHkA-TBesxdaINL-1" vertex="1">
+          <mxGeometry x="255" y="100" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wIfMMyqVshRjNlhe_-r8-3" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="uJdiFEHkA-TBesxdaINL-1" source="wIfMMyqVshRjNlhe_-r8-2" target="wIfMMyqVshRjNlhe_-r8-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="315" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wIfMMyqVshRjNlhe_-r8-4" value="Igrač unosi početni saldo" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="uJdiFEHkA-TBesxdaINL-1" vertex="1">
+          <mxGeometry x="255" y="180" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wIfMMyqVshRjNlhe_-r8-5" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="uJdiFEHkA-TBesxdaINL-1" source="wIfMMyqVshRjNlhe_-r8-4" target="wIfMMyqVshRjNlhe_-r8-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="315" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wIfMMyqVshRjNlhe_-r8-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="uJdiFEHkA-TBesxdaINL-1" source="wIfMMyqVshRjNlhe_-r8-7" target="wIfMMyqVshRjNlhe_-r8-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wIfMMyqVshRjNlhe_-r8-7" value="Igra provjerava unos" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="uJdiFEHkA-TBesxdaINL-1" vertex="1">
+          <mxGeometry x="255" y="260" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wIfMMyqVshRjNlhe_-r8-8" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="uJdiFEHkA-TBesxdaINL-1" vertex="1">
+          <mxGeometry x="297.5" y="360" width="35" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wIfMMyqVshRjNlhe_-r8-9" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="uJdiFEHkA-TBesxdaINL-1" source="wIfMMyqVshRjNlhe_-r8-8" target="wIfMMyqVshRjNlhe_-r8-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="310" as="sourcePoint" />
+            <mxPoint x="470" y="310" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="420" y="375" />
+              <mxPoint x="420" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wIfMMyqVshRjNlhe_-r8-10" value="Neispravan unos" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" parent="wIfMMyqVshRjNlhe_-r8-9" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wIfMMyqVshRjNlhe_-r8-11" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="uJdiFEHkA-TBesxdaINL-1" source="wIfMMyqVshRjNlhe_-r8-8" target="wIfMMyqVshRjNlhe_-r8-13" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="310" as="sourcePoint" />
+            <mxPoint x="315" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wIfMMyqVshRjNlhe_-r8-12" value="Ispravan unos" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" parent="wIfMMyqVshRjNlhe_-r8-11" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wIfMMyqVshRjNlhe_-r8-13" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" parent="uJdiFEHkA-TBesxdaINL-1" vertex="1">
+          <mxGeometry x="300" y="480" width="30" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="dhQvndnJ3bdJJg44SbtS" name="aktivnost:unosUloga">
+    <mxGraphModel dx="828" dy="452" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="DIctZP5cGQyCoyT5ZOyA-0" />
+        <mxCell id="DIctZP5cGQyCoyT5ZOyA-1" parent="DIctZP5cGQyCoyT5ZOyA-0" />
+        <mxCell id="qATMCXvYBPnC5LkFZf3l-0" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" parent="DIctZP5cGQyCoyT5ZOyA-1" vertex="1">
+          <mxGeometry x="300" y="30" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qATMCXvYBPnC5LkFZf3l-1" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="DIctZP5cGQyCoyT5ZOyA-1" source="qATMCXvYBPnC5LkFZf3l-0" target="qATMCXvYBPnC5LkFZf3l-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="315" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qATMCXvYBPnC5LkFZf3l-2" value="Igra zahtjeva unos uloga za sljedeću rundu" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="DIctZP5cGQyCoyT5ZOyA-1" vertex="1">
+          <mxGeometry x="255" y="100" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qATMCXvYBPnC5LkFZf3l-3" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="DIctZP5cGQyCoyT5ZOyA-1" source="qATMCXvYBPnC5LkFZf3l-2" target="qATMCXvYBPnC5LkFZf3l-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="315" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qATMCXvYBPnC5LkFZf3l-4" value="Igrač unosi ulog" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="DIctZP5cGQyCoyT5ZOyA-1" vertex="1">
+          <mxGeometry x="255" y="180" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qATMCXvYBPnC5LkFZf3l-5" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="DIctZP5cGQyCoyT5ZOyA-1" source="qATMCXvYBPnC5LkFZf3l-4" target="qATMCXvYBPnC5LkFZf3l-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="315" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qATMCXvYBPnC5LkFZf3l-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="DIctZP5cGQyCoyT5ZOyA-1" source="qATMCXvYBPnC5LkFZf3l-7" target="qATMCXvYBPnC5LkFZf3l-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qATMCXvYBPnC5LkFZf3l-7" value="Igra provjerava unos" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="DIctZP5cGQyCoyT5ZOyA-1" vertex="1">
+          <mxGeometry x="255" y="260" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qATMCXvYBPnC5LkFZf3l-8" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="DIctZP5cGQyCoyT5ZOyA-1" vertex="1">
+          <mxGeometry x="297.5" y="360" width="35" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qATMCXvYBPnC5LkFZf3l-9" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="DIctZP5cGQyCoyT5ZOyA-1" source="qATMCXvYBPnC5LkFZf3l-8" target="qATMCXvYBPnC5LkFZf3l-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="310" as="sourcePoint" />
+            <mxPoint x="470" y="310" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="420" y="375" />
+              <mxPoint x="420" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qATMCXvYBPnC5LkFZf3l-10" value="Neispravan unos" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" parent="qATMCXvYBPnC5LkFZf3l-9" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qATMCXvYBPnC5LkFZf3l-11" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="DIctZP5cGQyCoyT5ZOyA-1" source="qATMCXvYBPnC5LkFZf3l-8" target="C1xn415pkrdsMK-otMas-0" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="310" as="sourcePoint" />
+            <mxPoint x="315" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qATMCXvYBPnC5LkFZf3l-12" value="Ispravan unos" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" parent="qATMCXvYBPnC5LkFZf3l-11" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qATMCXvYBPnC5LkFZf3l-13" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" parent="DIctZP5cGQyCoyT5ZOyA-1" vertex="1">
+          <mxGeometry x="300" y="590" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C1xn415pkrdsMK-otMas-0" value="igra oduzima igraču saldo" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="DIctZP5cGQyCoyT5ZOyA-1" vertex="1">
+          <mxGeometry x="255" y="470" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="C1xn415pkrdsMK-otMas-1" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="DIctZP5cGQyCoyT5ZOyA-1" source="C1xn415pkrdsMK-otMas-0" target="qATMCXvYBPnC5LkFZf3l-13" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="s5Q6_GDv0VMigiIdE6T3" name="aktivnost:odbacivanjeKarata">
+    <mxGraphModel dx="830" dy="452" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="6o2GaOA6AcR_527U0lJh-0" />
+        <mxCell id="6o2GaOA6AcR_527U0lJh-1" parent="6o2GaOA6AcR_527U0lJh-0" />
+        <mxCell id="6o2GaOA6AcR_527U0lJh-2" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" parent="6o2GaOA6AcR_527U0lJh-1" vertex="1">
+          <mxGeometry x="370" y="60" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6o2GaOA6AcR_527U0lJh-3" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" parent="6o2GaOA6AcR_527U0lJh-1" source="6o2GaOA6AcR_527U0lJh-2" target="6o2GaOA6AcR_527U0lJh-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="385" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6o2GaOA6AcR_527U0lJh-4" value="Igra pita igrača želi li odbaciti karte" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="6o2GaOA6AcR_527U0lJh-1" vertex="1">
+          <mxGeometry x="325" y="130" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6o2GaOA6AcR_527U0lJh-6" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="6o2GaOA6AcR_527U0lJh-1" source="6o2GaOA6AcR_527U0lJh-4" target="324m0RaAF9c-cdtpwyjm-0" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="300" as="sourcePoint" />
+            <mxPoint x="385" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="385" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6o2GaOA6AcR_527U0lJh-7" value="igrač odbacuje karte" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" parent="6o2GaOA6AcR_527U0lJh-6" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="324m0RaAF9c-cdtpwyjm-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="6o2GaOA6AcR_527U0lJh-1" source="324m0RaAF9c-cdtpwyjm-0" target="324m0RaAF9c-cdtpwyjm-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="385" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="324m0RaAF9c-cdtpwyjm-0" value="Igra pita koje karte igrač želi izbaciti" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="6o2GaOA6AcR_527U0lJh-1" vertex="1">
+          <mxGeometry x="325" y="270" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="324m0RaAF9c-cdtpwyjm-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="6o2GaOA6AcR_527U0lJh-1" source="324m0RaAF9c-cdtpwyjm-2" target="324m0RaAF9c-cdtpwyjm-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="324m0RaAF9c-cdtpwyjm-2" value="Igra uzima igraču odabrane karte" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="6o2GaOA6AcR_527U0lJh-1" vertex="1">
+          <mxGeometry x="325" y="350" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="324m0RaAF9c-cdtpwyjm-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="6o2GaOA6AcR_527U0lJh-1" source="324m0RaAF9c-cdtpwyjm-3" target="324m0RaAF9c-cdtpwyjm-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="324m0RaAF9c-cdtpwyjm-3" value="Igrač dobiva nove karte" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="6o2GaOA6AcR_527U0lJh-1" vertex="1">
+          <mxGeometry x="325" y="440" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="324m0RaAF9c-cdtpwyjm-5" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" parent="6o2GaOA6AcR_527U0lJh-1" vertex="1">
+          <mxGeometry x="370" y="560" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="324m0RaAF9c-cdtpwyjm-9" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="6o2GaOA6AcR_527U0lJh-1" source="6o2GaOA6AcR_527U0lJh-4" target="324m0RaAF9c-cdtpwyjm-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="400" as="sourcePoint" />
+            <mxPoint x="470" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="480" y="150" />
+              <mxPoint x="510" y="150" />
+              <mxPoint x="510" y="575" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="324m0RaAF9c-cdtpwyjm-10" value="Igrač zadržava karte" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" parent="324m0RaAF9c-cdtpwyjm-9" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="--7HRGIv60iIBSO-9n52" name="aktivnost:Provjera">
+    <mxGraphModel dx="828" dy="452" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="nSObl6hrj4LN0tLhHReY-0" />
+        <mxCell id="nSObl6hrj4LN0tLhHReY-1" parent="nSObl6hrj4LN0tLhHReY-0" />
+        <mxCell id="01-FBfmlxrd3H0jjwGZT-0" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" parent="nSObl6hrj4LN0tLhHReY-1" vertex="1">
+          <mxGeometry x="360" y="50" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="01-FBfmlxrd3H0jjwGZT-1" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="nSObl6hrj4LN0tLhHReY-1" source="01-FBfmlxrd3H0jjwGZT-0" target="01-FBfmlxrd3H0jjwGZT-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="375" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="01-FBfmlxrd3H0jjwGZT-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="nSObl6hrj4LN0tLhHReY-1" source="01-FBfmlxrd3H0jjwGZT-2" target="01-FBfmlxrd3H0jjwGZT-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="01-FBfmlxrd3H0jjwGZT-2" value="Igra provjerava karte" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="nSObl6hrj4LN0tLhHReY-1" vertex="1">
+          <mxGeometry x="315" y="130" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="01-FBfmlxrd3H0jjwGZT-4" value="Igrač ima dobitnu kombinaciju karata" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="nSObl6hrj4LN0tLhHReY-1" vertex="1">
+          <mxGeometry x="315" y="210" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="01-FBfmlxrd3H0jjwGZT-7" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="nSObl6hrj4LN0tLhHReY-1" source="01-FBfmlxrd3H0jjwGZT-4" target="_KSd58KfrBOUaXdza2OQ-0" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="229.5" as="sourcePoint" />
+            <mxPoint x="560" y="229.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="480" y="230" />
+              <mxPoint x="480" y="260" />
+              <mxPoint x="480" y="330" />
+              <mxPoint x="480" y="455" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="01-FBfmlxrd3H0jjwGZT-8" value="ne" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" parent="01-FBfmlxrd3H0jjwGZT-7" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="-75" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="01-FBfmlxrd3H0jjwGZT-9" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="nSObl6hrj4LN0tLhHReY-1" source="01-FBfmlxrd3H0jjwGZT-4" target="01-FBfmlxrd3H0jjwGZT-11" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="300" as="sourcePoint" />
+            <mxPoint x="375" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="01-FBfmlxrd3H0jjwGZT-10" value="da" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" parent="01-FBfmlxrd3H0jjwGZT-9" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="01-FBfmlxrd3H0jjwGZT-11" value="Igra daje igraču bodove ovisno o kombinaciji" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="nSObl6hrj4LN0tLhHReY-1" vertex="1">
+          <mxGeometry x="315" y="320" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="01-FBfmlxrd3H0jjwGZT-12" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="nSObl6hrj4LN0tLhHReY-1" source="01-FBfmlxrd3H0jjwGZT-11" target="_KSd58KfrBOUaXdza2OQ-0" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="375" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_KSd58KfrBOUaXdza2OQ-0" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" parent="nSObl6hrj4LN0tLhHReY-1" vertex="1">
+          <mxGeometry x="360" y="440" width="30" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="GAUHoUzKeurdzl99PlQy" name="aktivnost_dijeljenjeKarata">
+    <mxGraphModel dx="830" dy="452" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="GXBNvkTDTD5ECUlzuqjs-0" />
+        <mxCell id="GXBNvkTDTD5ECUlzuqjs-1" parent="GXBNvkTDTD5ECUlzuqjs-0" />
+        <mxCell id="GXBNvkTDTD5ECUlzuqjs-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="GXBNvkTDTD5ECUlzuqjs-1" source="GXBNvkTDTD5ECUlzuqjs-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="225" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GXBNvkTDTD5ECUlzuqjs-3" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="GXBNvkTDTD5ECUlzuqjs-1">
+          <mxGeometry x="210" y="60" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GXBNvkTDTD5ECUlzuqjs-4" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" source="GXBNvkTDTD5ECUlzuqjs-3" parent="GXBNvkTDTD5ECUlzuqjs-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="225" y="150" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="225" y="130" />
+              <mxPoint x="225" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GXBNvkTDTD5ECUlzuqjs-7" value="Igra promiješa karte" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="GXBNvkTDTD5ECUlzuqjs-1">
+          <mxGeometry x="165" y="150" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GXBNvkTDTD5ECUlzuqjs-9" value="Igra podjeli karte igraču" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="GXBNvkTDTD5ECUlzuqjs-1">
+          <mxGeometry x="165" y="250" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JT-oKPZIx5nN0HR1wYgC-0" value="" style="endArrow=open;endFill=1;endSize=12;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="GXBNvkTDTD5ECUlzuqjs-1" source="GXBNvkTDTD5ECUlzuqjs-7">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="330" y="180" as="sourcePoint" />
+            <mxPoint x="225" y="250" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WnX8I1ojcwm1AoAht3CZ-0" value="Igrač provjera karte&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="GXBNvkTDTD5ECUlzuqjs-1">
+          <mxGeometry x="165" y="350" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WnX8I1ojcwm1AoAht3CZ-2" value="" style="endArrow=open;endFill=1;endSize=12;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="GXBNvkTDTD5ECUlzuqjs-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="224.5" y="290" as="sourcePoint" />
+            <mxPoint x="224.5" y="350" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F7WyW_IuDfLDKVMqTiP4-0" value="" style="html=1;whiteSpace=wrap;aspect=fixed;shape=isoRectangle;" vertex="1" parent="GXBNvkTDTD5ECUlzuqjs-1">
+          <mxGeometry x="195" y="450" width="60" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="a1egcBWCT3dGgTIe7MrY-21" value="" style="endArrow=classic;html=1;fontSize=11;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="GXBNvkTDTD5ECUlzuqjs-1" target="GXBNvkTDTD5ECUlzuqjs-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="280" as="sourcePoint" />
+            <mxPoint x="160" y="170" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="110" y="210" />
+              <mxPoint x="110" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a1egcBWCT3dGgTIe7MrY-23" value="" style="endArrow=none;html=1;fontSize=11;entryX=0;entryY=0.528;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="GXBNvkTDTD5ECUlzuqjs-1" target="F7WyW_IuDfLDKVMqTiP4-0">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="320" as="sourcePoint" />
+            <mxPoint x="440" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="110" y="469" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a1egcBWCT3dGgTIe7MrY-24" value="Igrač odbacuje karte" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="GXBNvkTDTD5ECUlzuqjs-1">
+          <mxGeometry x="60" y="290" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="a1egcBWCT3dGgTIe7MrY-26" value="" style="endArrow=open;endFill=1;endSize=12;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="GXBNvkTDTD5ECUlzuqjs-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="224.5" y="390" as="sourcePoint" />
+            <mxPoint x="224.5" y="450" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7RhvlmG4aT8VKP4h9Vfw-2" value="" style="endArrow=none;html=1;fontSize=11;entryX=0.5;entryY=0.972;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="GXBNvkTDTD5ECUlzuqjs-1" target="F7WyW_IuDfLDKVMqTiP4-0">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="225" y="510" as="sourcePoint" />
+            <mxPoint x="222" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7RhvlmG4aT8VKP4h9Vfw-3" value="Igrač ne odbacuje karte" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="GXBNvkTDTD5ECUlzuqjs-1">
+          <mxGeometry x="170" y="510" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7RhvlmG4aT8VKP4h9Vfw-4" value="" style="endArrow=classic;html=1;fontSize=11;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="GXBNvkTDTD5ECUlzuqjs-1" source="7RhvlmG4aT8VKP4h9Vfw-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="550" as="sourcePoint" />
+            <mxPoint x="225" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7RhvlmG4aT8VKP4h9Vfw-5" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;fontSize=11;" vertex="1" parent="GXBNvkTDTD5ECUlzuqjs-1">
+          <mxGeometry x="210" y="590" width="30" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
