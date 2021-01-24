@@ -87,10 +87,6 @@ class Igrac(object):
   def dodaj_kartu(self, karta):
     self.karte.append(karta)
 
-  def ima_novaca():
-    if self.__saldo <= 0:
-        return false
-
 class ProvjeraRuke(object):
   def __init__(self, karte):
     # Broj karte
@@ -175,8 +171,6 @@ class Igra(object):
     def __init__(self, prikaz = None):
         self.__prikaz = prikaz
         self.__spil = Spil()
-        self.__igrac = ""
-        self.__ulog = 5
         self.__pocetniS = 100
         self.__saldoZaBodovanje = 100
         self.__brDjeljenja = 0
@@ -194,13 +188,8 @@ class Igra(object):
     def dobitak(self, value): self.__dobitak = value
 
     @property
-    def ulog(self): return self.__ulog
-
-    @property
     def pocetniS(self): return self.__pocetniS
 
-    @ulog.setter
-    def ulog(self, value): self.__ulog = value
 
     @pocetniS.setter
     def pocetniS(self, value): self.__pocetniS = value
@@ -246,18 +235,12 @@ class Igra(object):
     def ulog(self):
         ulog = self.prikaz.ulog()
         s = igrac.saldo
-        igrac.saldo = s - ulog             #3.2
+        igrac.saldo = s - ulog             #3.3
 
     def dijeljenjeKarata(self):
-##        if self.brDjeljenja > 0:
-##            self.spil = Spil()                                #4.1
-##            self.brDjeljenja += 1
-##        self.spil.shuffle()
-        #4.2
-        self.spil = Spil()                                #4.1
-        self.spil.shuffle()
-        self.brDjeljenja += 1
-        for i in range(5):
+        self.spil = Spil()
+        self.spil.shuffle()                 #4.1
+        for i in range(5):                  #4.2
             igrac.dodaj_kartu(self.spil.djeljenje())
 
         # Da se vide karte
@@ -347,10 +330,9 @@ class Igra(object):
     def odbacivanjeKarata(self):
         odluka = self.prikaz.odbacivanjeKarata()
         ispravnoOdbacivanje = False
-        while ispravnoOdbacivanje == False:
+        while ispravnoOdbacivanje == False:         #5.2
             if odluka[0] == 'n':
-                break #igra pita igrača želi li odbaciti karte
-                #1,2,3
+                break
             odabirLista = [int(unos) for unos in odluka.split(",")]
 
             for unos in odabirLista:
@@ -364,7 +346,7 @@ class Igra(object):
     def provjeraSalda(self):
         krajIgre = False
         s = self.saldoZaBodovanje
-        if igrac.saldo < 1:
+        if igrac.saldo <= 0:
             print("Igrač je izgubio!")
             self.krajIgre = True
         elif igrac.saldo > s*100:
@@ -381,16 +363,16 @@ class PrikazIgre(object):
 
     def unesiIgraca(self):
         while True:
-            ime =input("Unesi ime: \n")
-            if ime.strip():
+            ime =input("Unesi ime: \n")     #1.1
+            if ime.strip():                 #1.2
                 print("_"*50)
                 return ime.strip()
-    def odbacivanjeKarata(self):
+    def odbacivanjeKarata(self):            #5.1
             odluka = input("Koje karte zelite odbaciti?\nAko zelite Zadrzati sve karte upišite 0\nOdabir karata odvojite zarezom (npr. 1,2,3)")
             return odluka
 
     def ulog(self):
-        while True:
+        while True:         #3.1
             ulog = input("Koliko želite uložiti za sljedeću rundu?   ")
             try:
                 ulog = int(ulog)
@@ -404,10 +386,11 @@ class PrikazIgre(object):
 
     def pocetniSaldo(self):
         while True:
+            #2.1 #2.2
             pocetniSaldo = input("S koliko novaca zelite zapoceti igru?\n Najmanji saldo je 100, a najveći 1000   ")
             try:
                 pocetniSaldo = int(pocetniSaldo)
-                if pocetniSaldo >= 100 and pocetniSaldo <= 1000:
+                if pocetniSaldo >= 100 and pocetniSaldo <= 1000: #2.3
                     igrac.saldo = pocetniSaldo
                     return pocetniSaldo
             except:
