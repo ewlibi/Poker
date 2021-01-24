@@ -266,38 +266,38 @@ class Igra(object):
 
         # skala u boji
         elif skala and boja_fl:
-          print("skala u boji!")
-          self.dobitak = igrac.ulog*50
-          print("+" + str(self.dobitak) + " bodova!")
-          igrac.saldo += (self.dobitak)
+            print("skala u boji!")
+            self.dobitak = igrac.ulog*50
+            print("+" + str(self.dobitak) + " bodova!")
+            igrac.saldo += (self.dobitak)
 
         # Poker
         elif rezultat.poker():
-          print("Poker!")
-          self.dobitak = igrac.ulog*25
-          print("+" + str(self.dobitak) + " bodova!")
-          igrac.saldo += (self.dobitak)
+            print("Poker!")
+            self.dobitak = igrac.ulog*25
+            print("+" + str(self.dobitak) + " bodova!")
+            igrac.saldo += (self.dobitak)
 
         # Ful
         elif rezultat.ful():
-          print("Ful!")
-          self.dobitak = igrac.ulog*8
-          print("+" + str(self.dobitak) + " bodova!")
-          igrac.saldo += (self.dobitak)
+            print("Ful!")
+            self.dobitak = igrac.ulog*8
+            print("+" + str(self.dobitak) + " bodova!")
+            igrac.saldo += (self.dobitak)
 
         # boja_fl
         elif boja_fl:
-          print("boja_fl!")
-          self.dobitak = igrac.ulog*5
-          print("+" + str(self.dobitak) + " bodova!")
-          igrac.saldo += (self.dobitak)
+            print("boja_fl!")
+            self.dobitak = igrac.ulog*5
+            print("+" + str(self.dobitak) + " bodova!")
+            igrac.saldo += (self.dobitak)
 
         # Skala
         elif skala:
-          print("Skala!")
-          self.dobitak = igrac.ulog*4
-          print("+" + str(self.dobitak) + " bodova!")
-          igrac.saldo += self.dobitak
+            print("Skala!")
+            self.dobitak = igrac.ulog*4
+            print("+" + str(self.dobitak) + " bodova!")
+            igrac.saldo += self.dobitak
 
         # Tris
         elif najveci_broj == 3:
@@ -316,11 +316,12 @@ class Igra(object):
 
         # 1 par
         elif parovi and parovi[0] > 10:
-          print ("Jedan par!")
-          self.dobitak = igrac.ulog
-          print("+" + str(igrac.ulog) + " bodova!")
-          igrac.saldo += self.dobitak
-
+            print ("Jedan par!")
+            self.dobitak = igrac.ulog
+            print("+" + str(igrac.ulog) + " bodova!")
+            igrac.saldo += self.dobitak
+        else:
+            print("Niste pogodili niti jednu dobitnu kombinaciju!")
         print("_"*50)
         igrac.karte=[]
 
