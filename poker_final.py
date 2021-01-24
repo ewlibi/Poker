@@ -329,21 +329,22 @@ class Igra(object):
         self.prikaz.promjenaBodova(s)
 
     def odbacivanjeKarata(self):
-        odluka = self.prikaz.odbacivanjeKarata()
+
         ispravnoOdbacivanje = False
-        while ispravnoOdbacivanje == False:         #5.2
+        while ispravnoOdbacivanje == False:
+            odluka = self.prikaz.odbacivanjeKarata()         #5.2
             if odluka[0] == 'n':
                 break
-            odabirLista = [int(unos) for unos in odluka.split(",")]
+            try:
+                odabirLista = [int(unos) for unos in odluka.split(",")]
 
-            for unos in odabirLista:
-                igrac.karte[unos-1] = self.spil.djeljenje()
-                 #igrač dobiva nove karte
-                igrac.karte[unos-1].vidljivo = True
-                ispravnoOdbacivanje = True    #5.1
-                self.brDjeljenja = 0
-        print(igrac.karte)
-
+                for unos in odabirLista:
+                    igrac.karte[unos-1] = self.spil.djeljenje()     #5.1
+                    #igrač dobiva nove karte
+                    igrac.karte[unos-1].vidljivo = True
+                    ispravnoOdbacivanje = True
+                    print(igrac.karte)
+            except: print("Pogrešan unos! ")
     def provjeraSalda(self):
         krajIgre = False
         s = self.saldoZaBodovanje
@@ -369,7 +370,7 @@ class PrikazIgre(object):
                 print("_"*50)
                 return ime.strip()
     def odbacivanjeKarata(self):            #5.1
-            odluka = input("Koje karte zelite odbaciti?\nAko zelite Zadrzati sve karte upišite 0\nOdabir karata odvojite zarezom (npr. 1,2,3)")
+            odluka = input("Koje karte zelite odbaciti?\nAko zelite zadrzati sve karte upišite 0\nOdabir karata odvojite zarezom (npr. 1,2,3)  ")
             return odluka
 
     def ulog(self):
@@ -404,5 +405,3 @@ pi = PrikazIgre()
 igrac = Igrac()
 i = Igra(pi)
 i.igranjePokera()
-#početni saldo, ulog za svaku rundu, djeljenje karata, ulaganje, odbacivanje karte,provjera salda,provjeri ruku--> sve aktivnosti sa grafa je
-#potrebno implementirati u kodu
