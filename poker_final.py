@@ -333,7 +333,9 @@ class Igra(object):
         ispravnoOdbacivanje = False
         while ispravnoOdbacivanje == False:
             odluka = self.prikaz.odbacivanjeKarata()         #5.2
-            if odluka[0] == 'n':
+            if odluka == "sve":
+                odluka = "1,2,3,4,5"
+            elif int(odluka[0]) == 0:
                 break
             try:
                 odabirLista = [int(unos) for unos in odluka.split(",")]
@@ -343,8 +345,10 @@ class Igra(object):
                     #igrač dobiva nove karte
                     igrac.karte[unos-1].vidljivo = True
                     ispravnoOdbacivanje = True
-                    ##print(igrac.karte)
+
             except: print("Pogrešan unos! ")
+
+            print(igrac.karte)
     def provjeraSalda(self):
         krajIgre = False
         s = self.saldoZaBodovanje
@@ -370,7 +374,7 @@ class PrikazIgre(object):
                 print("_"*50)
                 return ime.strip()
     def odbacivanjeKarata(self):            #5.1
-            odluka = input("Koje karte zelite odbaciti?\nAko zelite zadrzati sve karte upišite 0\nOdabir karata odvojite zarezom (npr. 1,2,3)  ")
+            odluka = input("Koje karte zelite odbaciti?\nAko zelite zadrzati sve karte upišite 0\nAko zelite odbaciti sve karte upišite 'sve' \nOdabir karata odvojite zarezom (npr. 1,2,3)  ")
             return odluka
 
     def ulog(self):
