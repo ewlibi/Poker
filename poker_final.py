@@ -376,7 +376,7 @@ class PrikazIgre(object):
 
     def prikaziPocetakIgre(self):
         print("#" * 50)
-        print("#" * 20 + "Video Poker" + "#" * 20)
+        print("#" * 20 + "Video Poker" + "#" * 19)
         print("#" * 50)
 
     def unesiIgraca(self):
@@ -414,7 +414,7 @@ class PrikazIgre(object):
                 print("Niste unijeli ispravan broj!")
 
     def promjenaBodova(self, saldo):
-        print("Igrač trenutno ima {0} bodova".format(saldo))
+        print("{0} trenutno ima {1} bodova.".format(igrac.ime,saldo))
 
 pi = PrikazIgre()
 igrac = Igrac()
