@@ -343,7 +343,7 @@ class Igra(object):
                     #igrač dobiva nove karte
                     igrac.karte[unos-1].vidljivo = True
                     ispravnoOdbacivanje = True
-                    print(igrac.karte)
+                    ##print(igrac.karte)
             except: print("Pogrešan unos! ")
     def provjeraSalda(self):
         krajIgre = False
@@ -389,7 +389,7 @@ class PrikazIgre(object):
     def pocetniSaldo(self):
         while True:
             #2.1 #2.2
-            pocetniSaldo = input("S koliko novaca zelite zapoceti igru?\n Najmanji saldo je 100, a najveći 1000   ")
+            pocetniSaldo = input("S koliko novaca zelite zapoceti igru?\nNajmanji saldo je 100, a najveći 1000   ")
             try:
                 pocetniSaldo = int(pocetniSaldo)
                 if pocetniSaldo >= 100 and pocetniSaldo <= 1000: #2.3
