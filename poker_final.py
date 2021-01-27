@@ -163,7 +163,7 @@ class ProvjeraRuke(object):
     elif vrijednost_karata.count(vrijednost_karata) == 3:
       tri = True
 
-    if dva and tri:
+    if dva == True and tri == True:
       return True
     return False
 
