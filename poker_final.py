@@ -105,7 +105,7 @@ class ProvjeraRuke(object):
     vrijednost_karata = [karta.vrijednost for karta in self.karte]
     vrijednost_karata.sort()
 
-    if not len( set(vrijednost_karata)) == 5:
+    if not len(set(vrijednost_karata)) == 5:
       return False
 
     if vrijednost_karata[4] == 14 and vrijednost_karata[0] == 2 and vrijednost_karata[1] == 3 and vrijednost_karata[2] == 4 and vrijednost_karata[3] == 5:
