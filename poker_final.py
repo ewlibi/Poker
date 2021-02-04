@@ -305,7 +305,7 @@ class Igra(object):
 
         # boja_fl
         elif boja_fl:
-            print("boja_fl!")
+            print("Boja!")
             self.dobitak = self.igrac.ulog * 5
             print("+" + str(self.dobitak) + " bodova!")
             self.igrac.saldo += self.dobitak
