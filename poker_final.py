@@ -268,14 +268,13 @@ class Igra(object):
         print(self.igrac.karte)
 
     def provjeriRuku(self):
-        rezultat = ProvjeraRuke(self.igrac.karte)
-        skala = rezultat.skala()  # 6.1
+        rezultat = ProvjeraRuke(self.igrac.karte) #6.1
+        skala = rezultat.skala()
         boja_fl = rezultat.boja_fl()
         najveci_broj = rezultat.najveci_broj()
         parovi = rezultat.parovi()
 
         # 6.2
-
         # royal_flush
         if skala and boja_fl and skala == 14:
             self.dobitak = self.igrac.ulog * 400
@@ -350,7 +349,7 @@ class Igra(object):
     def odbacivanjeKarata(self):
         ispravnoOdbacivanje = False
         while ispravnoOdbacivanje is False:
-            odluka = self.prikaz.odbacivanjeKarata()  # 5.2
+            odluka = self.prikaz.odbacivanjeKarata()  # 5.1
             if odluka == "sve":
                 odluka = "1,2,3,4,5"
             elif int(odluka[0]) == 0:
@@ -359,7 +358,7 @@ class Igra(object):
                 odabirLista = [int(unos) for unos in odluka.split(",")]
 
                 for unos in odabirLista:
-                    self.igrac.karte[unos - 1] = self.spil.djeljenje()  # 5.1
+                    self.igrac.karte[unos - 1] = self.spil.djeljenje()  # 5.3
                     # igrač dobiva nove karte
                     self.igrac.karte[unos - 1].vidljivo = True
                     ispravnoOdbacivanje = True
@@ -427,7 +426,7 @@ class PrikazIgre(object):
 
             # 2.3
 
-    def promjenaBodova(self, saldo, ime):
+    def promjenaBodova(self, saldo, ime):           #6.3
         print("{0} trenutno ima {1} bodova.".format(ime, saldo))
 
 
